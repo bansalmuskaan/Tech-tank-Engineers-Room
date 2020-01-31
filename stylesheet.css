@@ -1,0 +1,225 @@
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float:left;
+    line-height: 65px;
+    padding: 1px 25px;
+    color: white;
+    display: block;
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 25px;
+  }
+
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Change the display property to none */
+    display: none;
+  }
+
+  .screen{
+    margin-top: 10px;  
+    width: 75%;
+    height: 25px;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    padding: 0 20px;
+    opacity: 0.5;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 150px 0;
+    background-image: url(https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    color: black;
+    font-size: 85px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  .lesson-wrapper {
+    padding-bottom: 190px;
+    padding-left: 5%;
+    padding-right: 5%;
+  /*  background-color: mintcream; 
+    */background-size: cover;
+    background-image: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    text-align: center;
+  } 
+  
+    
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: black;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+
+  .abouts {
+    margin: 70px;
+    float: left;
+    width: 100%;
+  }
+  
+  .about {
+    position: relative;
+    height: 100px;
+    margin-right: 10px;
+    /*margin-left: 10px;*/
+    width: 170px;
+  }
+
+  .about li {
+      list-style: none;
+  }
+
+  button {
+    height: 4px;
+    font-size: 20px;
+    outline: none;
+}
+
+  button:hover {
+    opacity: 0.5;
+    background-color: rgba(18, 187, 187);
+  }
+
+ button { 
+      background-color: rgba(177, 137, 51, 0.048);
+      transition: all 0.5s;
+      
+  }
+
+  .about a {
+    color: black;
+  }
+
+
+ /* button {
+    background-color: rgba(177, 137, 51, 0.048);
+    transition: all 0.5s;
+}*/
+
+
+.divide {
+    margin: 40px 0;
+    background-color: black;
+}
+
+
+
+.contact-form {            
+    padding-top:80px; 
+    background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    padding-bottom: 30px;
+   }
+
+   input, textarea {            
+    width: 200px;            
+    margin-top: 10px;            
+    margin-bottom: 30px;            
+    padding: 20px;            
+    font-size: 18px;            
+    border: 1px solid #dee7ec;        
+   }  
+
+   .contact-submit {            
+    background-color: #dee7ec;            
+    color: #889eab;  
+            
+     }
+ 
+     .section-title {
+        /*border: 2px solid #dee7ec; */
+        font-size: 40px;
+        margin-bottom: 50px;
+      }
+
+      .container p {
+        font-weight: bolder;
+        font-size: 25px;
+      }
+
+      .message {
+        padding: 15px 40px;
+        background-color: #5dca88;
+        cursor: pointer;
+        box-shadow: 0 7px #615f63;
+      }
+      
+      .message:active {
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+      }
